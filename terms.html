@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimePal - Your Time Managing Pal!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 1000; /* Ensures the header stays above other elements */
+        }
+        header h1 {
+            margin: 0; /* Remove default margin for h1 */
+            text-align: center;
+        }
+        .header-links {
+            display: flex;
+            align-items: center;
+        }
+        .header-links a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background-color: #2b3948;
+            transition: background-color 0.3s;
+        }
+        .header-links a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 80%;
+            height: 70vh; /* Adjusted height */
+            margin: 100px auto; /* Increased margin to account for sticky header */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto; /* Add scrollbar if content exceeds container height */
+        }
+        h1 {
+            color: white
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-links">
+            <a href="index.html">Home</a>
+            <a href="terms.html">Terms & Conditions</a>
+        </div>
+        <h1>TimePal - Your Time Managing Pal!</h1>
+    </header>
+    <div class="container">
+        <h2>Terms and conditions</h2>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vTGnOsbiN5TlkFjszjpBRTz-Xj33EtwoE1hFru-cSWoocesF9xIseMIS6zB65Lr3uEQE7XBFivcWb4_/pub?embedded=true" frameborder="0"></iframe>
+    </div>
+    <footer>
+        <p>Contact us at: contact@example.com</p>
+    </footer>
+</body>
+</html>
